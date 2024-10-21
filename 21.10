@@ -1,0 +1,59 @@
+Zadanie: Zaawansowana Manipulacja Ciągami Znaków
+Opis: Napisz program, który pobiera od użytkownika różne dane tekstowe, a następnie wykonuje na nich różne operacje manipulacji ciągami znaków. Program powinien wyświetlać wyniki każdej operacji. Dodatkowo, program powinien zawierać funkcje do formatowania tekstu, liczenia słów, oraz wyszukiwania i zamiany tekstu.
+
+Instrukcje:
+
+1 Poproś użytkownika o wprowadzenie imienia i nazwiska:
+	Odczytaj wprowadzone imię i nazwisko z klawiatury.
+	Połącz imię i nazwisko w jeden ciąg i wyświetl pełne imię i nazwisko.
+
+2 Poproś użytkownika o wprowadzenie ścieżki do pliku:
+	Odczytaj wprowadzoną ścieżkę z klawiatury.
+	Wyświetl ścieżkę w dwóch formatach: z użyciem znaków ucieczki oraz jako literał dosłowny.
+
+3 Poproś użytkownika o wprowadzenie zdania:
+	Odczytaj wprowadzone zdanie z klawiatury.
+	Zamień wszystkie wystąpienia wybranego słowa na inne słowo i wyświetl wynik.
+	Podziel zdanie na słowa i wyświetl każde słowo w nowej linii.
+
+4 Poproś użytkownika o wprowadzenie kolejnego zdania:
+	Odczytaj wprowadzone zdanie z klawiatury.
+	Podziel zdanie na słowa, używając różnych separatorów (np. spacja, przecinek, średnik) i wyświetl każde słowo w nowej linii.
+
+5 Poproś użytkownika o wprowadzenie tekstu z nadmiarowymi spacjami:
+	Odczytaj wprowadzony tekst z klawiatury.
+	Usuń nadmiarowe spacje z początku i końca tekstu, a następnie wyświetl wynik.
+
+6 Poproś użytkownika o wprowadzenie listy elementów (np. owoców) oddzielonych przecinkami:
+	Odczytaj wprowadzoną listę z klawiatury.
+	Połącz elementy listy w jeden ciąg, używając różnych separatorów (np. przecinek, myślnik) i wyświetl wynik.
+
+7 Poproś użytkownika o wprowadzenie tekstu:
+	Odczytaj wprowadzony tekst z klawiatury.
+	Wykonaj na tekście różne operacje, takie jak: wyodrębnienie podciągu, zmiana wielkości liter, sprawdzenie, czy tekst zawiera określone słowo, oraz znalezienie indeksu określonego słowa.
+	Dodaj funkcje do formatowania tekstu:
+	Funkcja do formatowania imienia (pierwsza litera duża, reszta małe).
+	Funkcja do liczenia słów w tekście.
+	Funkcja do wyszukiwania i zamiany tekstu.
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Zadanie: Modyfikacja ciągu znaków
+Wprowadzenie ciągu znaków:
+Poproś użytkownika o wprowadzenie ciągu znaków.
+Menu operacji:
+Wyświetl menu z dostępnymi operacjami:
+Odwrócenie ciągu znaków
+Usunięcie samogłosek
+Zamiana małych liter na wielkie i odwrotnie
+Usunięcie spacji
+Wyjście
+Wybór operacji:
+Poproś użytkownika o wybór operacji z menu.
+Wykonanie operacji:
+Wykonaj wybraną operację na ciągu znaków i wyświetl wynik.
+Powtórzenie operacji:
+Zapytaj użytkownika, czy chce wykonać kolejną operację na tym samym ciągu znaków
+
