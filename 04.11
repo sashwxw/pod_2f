@@ -1,0 +1,40 @@
+Cel zadania:
+Napisz program w języku C#, który oblicza pola i obwody kwadratu, prostokąta oraz koła.
+Wymagania:
+Program powinien zawierać menu, które umożliwia użytkownikowi wybór jednej z trzech opcji:
+Obliczanie pola i obwodu kwadratu.
+Obliczanie pola i obwodu prostokąta.
+Obliczanie pola i obwodu koła.
+Wyjście z programu.
+Funkcje programu:
+Funkcja SquareCalculations:
+Pobiera długość boku kwadratu od użytkownika.
+Oblicza pole i obwód kwadratu.
+Wyświetla wyniki na ekranie.
+Funkcja RectangleCalculations:
+Pobiera długość i szerokość prostokąta od użytkownika.
+Oblicza pole i obwód prostokąta.
+Wyświetla wyniki na ekranie.
+Funkcja CircleCalculations:
+Pobiera promień koła od użytkownika.
+Oblicza pole i obwód koła.
+Wyświetla wyniki na ekranie.
+Walidacja danych:
+Funkcja GetPositiveNumber:
+Pobiera dane od użytkownika.
+Sprawdza, czy wprowadzone dane są liczbami dodatnimi.
+Jeśli dane są nieprawidłowe, prosi użytkownika o ponowne wprowadzenie wartości.
+Obsługa menu:
+Program powinien wyświetlać menu i pobierać wybór użytkownika.
+Na podstawie wyboru użytkownika, program powinien wywoływać odpowiednie funkcje obliczeniowe.
+Jeśli użytkownik wybierze opcję wyjścia, program powinien zakończyć działanie.
+Przykładowe dane wejściowe i wyjściowe:
+Dla kwadratu o boku 4:
+Pole: 16
+Obwód: 16
+Dla prostokąta o długości 5 i szerokości 3:
+Pole: 15
+Obwód: 16
+Dla koła o promieniu 2:
+Pole: 12.5664
+Obwód: 12.5664
