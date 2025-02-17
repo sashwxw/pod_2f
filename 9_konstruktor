@@ -1,0 +1,31 @@
+Utwórz projekt w języku C#
+
+Stwórz nową aplikację konsolową w Visual Studio lub innym środowisku programistycznym.
+Zdefiniuj enumerator Gender
+
+Enumerator powinien zawierać trzy wartości w języku polskim: Mezczyzna, Kobieta, Inna.
+Utwórz klasę Person
+
+Klasa powinna zawierać następujące pola i właściwości:
+FirstName (string) – imię
+LastName (string) – nazwisko
+DateOfBirth (DateTime) – data urodzenia
+PersonGender (Gender) – płeć
+Dodaj właściwość Age
+
+Właściwość Age powinna obliczać wiek na podstawie pola DateOfBirth.
+Oblicz wiek jako różnicę lat między bieżącą datą a datą urodzenia.
+Jeśli osoba nie miała jeszcze urodzin w danym roku, odejmij 1 rok.
+Zaimplementuj dwa konstruktory
+
+Domyślny konstruktor, który ustawi przykładowe wartości (Jan Kowalski, 2000-01-01, Mezczyzna).
+Konstruktor parametryczny, który umożliwi inicjalizację obiektu na podstawie przekazanych argumentów.
+Dodaj metody do klasy Person
+
+DisplayInformation() – metoda wyświetlająca informacje o osobie w formacie:
+GetFullName() – metoda zwracająca pełne imię i nazwisko jako string.
+ToString() – nadpisana metoda, która zwróci czytelną reprezentację obiektu.
+Stwórz klasę Program i metodę Main()
+
+Utwórz co najmniej dwa obiekty klasy Person, jeden przy użyciu konstruktora domyślnego, a drugi przy użyciu konstruktora parametrycznego.
+Wywołaj metody DisplayInformation() dla obu obiektów, aby wyświetlić ich dane.
